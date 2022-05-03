@@ -1,0 +1,86 @@
+/*---------------------------------
+localTime (RTC)
+
+timedatectl set-local-rtc 1 --adjust-system-clock
+-------------------------------------
+*/
+
+---------------------------------------
+
+grub file location
+
+/etc/default/grub
+
+Update Grub
+
+grub-mkconfig -o /boot/grub/grub.cfg
+
+-----------------------------------------
+
+
+/*
+ Java Install
+-------------------------------------------------
+
+
+sudo apt install openjdk-17-jdk-headless
+
+---------------------------------------------
+*/
+
+*/
+
+Developer Tools
+--------------------------------------------------------
+sudo apt-get install build-essential
+
+*/
+
+
+/*----------------------------------
+Panteon Tweaks
+
+sudo apt-get install build-essential
+
+sudo add-apt-repository ppa:philip.scott/pantheon-tweaks
+
+sudo apt update
+
+sudo apt install pantheon-tweaks
+
+--------------------------------------
+*/
+
+*/
+---------------------------------------
+python 3.10 install
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+sudo apt update
+
+sudo apt install python 3.10
+
+-------------------------------------
+*/
+
+/*
+ pip 22.2 install along with all python lib
+--------------------------------
+
+Django Installation 
+
+python -m pip install Django
+
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
+
+sudo apt install curl
+
+
+sudo apt-get install python3.10-distutils
+
+python -m pip install --user matplotlib numpy scipy sympy pandas jupyter nose ipython
+
+---------------------------------------------------------------------------------------
+*/
+

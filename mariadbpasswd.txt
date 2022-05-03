@@ -1,0 +1,37 @@
+if You Forgot root Password in arch Based Linux
+
+
+sudo systemctl stop mariadb
+
+sudo systemctl stop mysql
+
+sudo systemctl set-environment MYSQLD_OPTS="--skip-grant-tables --skip-networking"
+
+
+sudo systemctl start mariadb
+
+
+
+sudo mysql -u root
+
+sudo systemctl edit mysql
+
+
+
+sudo systemctl daemon-reload
+
+
+sudo systemctl start mysql
+
+
+sudo mysql -u root
+
+FLUSH PRIVILEGES;
+
+
+--------------Changing the MariaDB Password-----------------
+
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
+
+
+Okay You get it
