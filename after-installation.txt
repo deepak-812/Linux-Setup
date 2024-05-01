@@ -5,6 +5,11 @@ timedatectl set-local-rtc 1 --adjust-system-clock
 -------------------------------------
 */
 
+Change pink Color selector to Blue color Garuda hyprLand
+sudo sed -i 's/c50ed2/226b99/g' /usr/share/themes/Sweet-Dark/gtk-3.0/gtk-dark.css
+sudo sed -i 's/c50ed2/226b99/g' /usr/share/themes/Sweet-Dark/gtk-3.0/gtk.css
+
+
 ---------------------------------------
 
 grub file location
